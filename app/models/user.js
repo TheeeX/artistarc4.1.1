@@ -17,6 +17,12 @@ var userSchema = mongoose.Schema({
 	  dob: Date,
 	  website: { type: String, default: '' }
 	},
+	facebook: {
+		id: String,
+		token: String,
+		email: String,
+		name: String
+	},
 	created_at: { type: Date, default: Date.now },
 	updated_at: { type: Date, default: '' }
 });
