@@ -6,11 +6,12 @@ var userSchema = mongoose.Schema({
 		username: String,
 		password: String
 	},
-	name: { type: String, default: '' },
+	fname: { type: String, default: '' },
 	mobile: { type: String, default: '' },
 	email: { type: String, default: '' },
 	admin: { type: Boolean, default: false },       //{ type: Boolean, default: Date.now },
 	location: { type: String, default: '' },
+	aclass: { type: String, default: 'Artist' },
 	meta: {
 	  age: { type: Number, default: 0 },
 	  dob: Date,
