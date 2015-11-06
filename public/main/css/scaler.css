@@ -1,0 +1,13 @@
+.maxw-100p{
+  max-width: 100%;
+}
+
+.maxh-55p{
+  max-height : 55px!important;
+}
+.minw-100p{
+  min-width: 100%!important;
+}
+.minw-0p{
+  min-width: 0px!important;
+}

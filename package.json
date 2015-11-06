@@ -1,0 +1,36 @@
+{
+  "name": "artistarc",
+  "version": "4.1.2",
+  "author": "KJ <karanjeet96@live.com>",
+  "description": "ART",
+  "contributors": [
+    {
+      "name": "Karan jeet",
+      "email": "justbe@microsoft.com"
+    }
+  ],
+  "main": "./server.js",
+  "keywords": [
+    "azure",
+    "boilerplate"
+  ],
+  "noAnalyze": true,
+  "license": "Apache",
+  "engines": {
+    "node": ">=0.6.14"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.3.0",
+    "body-parser": "^1.14.1",
+    "connect-flash": "^0.1.1",
+    "cookie-parser": "^1.4.0",
+    "ejs": "^2.3.4",
+    "express": "^4.13.3",
+    "express-session": "^1.12.1",
+    "mongoose": "^4.2.4",
+    "morgan": "^1.6.1",
+    "multer": "^1.1.0",
+    "passport": "^0.3.0",
+    "passport-local": "^1.0.0"
+  }
+}
